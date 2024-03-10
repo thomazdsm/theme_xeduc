@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $THEME->name = 'xeduc';
 $THEME->sheets = [];
 $THEME->editor_sheets = [];
-$THEME->parents = ['boost'];
+$THEME->parents = ['moove', 'boost'];
 $THEME->enable_dock = false;
 $THEME->yuicssmodules = array();
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';

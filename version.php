@@ -44,4 +44,5 @@ $plugin->component = 'theme_xeduc';
 // This is a list of plugins, this plugin depends on (and their versions).
 $plugin->dependencies = [
     'theme_boost' => 2023100900,
+    'theme_moove' => 2023100902,
 ];
